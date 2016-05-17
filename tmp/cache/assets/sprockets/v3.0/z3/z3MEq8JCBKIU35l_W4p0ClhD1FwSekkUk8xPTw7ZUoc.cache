@@ -1,0 +1,7 @@
+I"G(function() {
+  var test;
+
+  test = alert("aew");
+
+}).call(this);
+:ET

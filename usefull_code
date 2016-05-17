@@ -1,0 +1,10 @@
+Usefull code
+
+
+<select name="comboboxx" id="combobox", onchange="test()">
+
+<!-- JS call
+<%= javascript_tag "test()" %>
+-->
+
+

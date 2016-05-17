@@ -1,0 +1,70 @@
+
+	<style type="text/css">
+		html, body {
+			padding: 0;
+			margin: 0;
+		}
+		#container {
+			background-color: black;
+			border: 1px solid black;
+			color: white;   /* for error messages, etc. */
+			overflow: hidden;
+			position: relative;
+			width: 940px;
+			height: 600px;
+			margin: 0 auto;
+			margin-top: 20px;
+		}
+		#nav {
+			margin-top: 20px;
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#container').tilezoom({
+				xml: 'dest/2dollars.xml',
+				mousewheel: true,
+				navigation: null,
+				zoomIn: '#plus',
+				zoomOut: '#minus',
+				goHome: '#home'
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="page-wrapper"><div id="page">
+		<div id="header">
+			<div class="section">
+				<h1><a href="http://labs.webcodingstudio.com/tilezoom/index.html">jQuery TileZoom Plugin</a></h1>
+				<ul id="nav">
+					<li><a href="http://labs.webcodingstudio.com/uploads/jquery/tilezoom.zip">Download Plugin</a></li>
+					<li><a href="http://labs.webcodingstudio.com/uploads/jquery/tilezoom_examples.zip">Download Examples</a></li>
+					<li><a href="http://labs.webcodingstudio.com/tilezoom/docs.html">Documentation</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="main">
+			<div id="content" class="clearfix"> 
+				<h2>2 Dollars (<em>7356 x 3146</em>)</h2>
+				<div id="nav">
+					<a title="Plus" href="http://labs.webcodingstudio.com/tilezoom/2dollars.html#" class="zoom-in" id="plus">Plus</a>
+					<a title="Minus" href="http://labs.webcodingstudio.com/tilezoom/2dollars.html#" class="zoom-out" id="minus">Minus</a>
+					<a title="Home" href="http://labs.webcodingstudio.com/tilezoom/2dollars.html#" class="go-home" id="home">Home</a>
+				</div>
+				<div id="container" class="zoom-container">
+					<div class="zoom-holder" style="width: 920px; height: 394px; left: 10px; top: 103px;"><img src="./jQuery Tilezoom Plugin - 2 Dollars (7356 x 3146)_files/thumb.jpg" class="zoom-thumb" style="width: 920px; height: 394px;"><div class="zoom-tiles" style="display: block; width: 920px; height: 394px;"><img _src="dest/2dollars_files/10/0_0.jpg" id="zoom-0-tile-0-0" style="position: absolute; left: 0px; top: 0px; z-index: 0;" src="./jQuery Tilezoom Plugin - 2 Dollars (7356 x 3146)_files/0_0.jpg"><img _src="dest/2dollars_files/10/1_0.jpg" id="zoom-0-tile-1-0" style="position: absolute; left: 253px; top: 0px; z-index: 0;" src="./jQuery Tilezoom Plugin - 2 Dollars (7356 x 3146)_files/1_0.jpg"><img _src="dest/2dollars_files/10/2_0.jpg" id="zoom-0-tile-2-0" style="position: absolute; left: 507px; top: 0px; z-index: 0;" src="./jQuery Tilezoom Plugin - 2 Dollars (7356 x 3146)_files/2_0.jpg"><img _src="dest/2dollars_files/10/3_0.jpg" id="zoom-0-tile-3-0" style="position: absolute; left: 761px; top: 0px; z-index: 0;" src="./jQuery Tilezoom Plugin - 2 Dollars (7356 x 3146)_files/3_0.jpg"><img _src="dest/2dollars_files/10/0_1.jpg" id="zoom-0-tile-0-1" style="position: absolute; left: 0px; top: 253px; z-index: 0;" src="./jQuery Tilezoom Plugin - 2 Dollars (7356 x 3146)_files/0_1.jpg"><img _src="dest/2dollars_files/10/1_1.jpg" id="zoom-0-tile-1-1" style="position: absolute; left: 253px; top: 253px; z-index: 0;" src="./jQuery Tilezoom Plugin - 2 Dollars (7356 x 3146)_files/1_1.jpg"><img _src="dest/2dollars_files/10/2_1.jpg" id="zoom-0-tile-2-1" style="position: absolute; left: 507px; top: 253px; z-index: 0;" src="./jQuery Tilezoom Plugin - 2 Dollars (7356 x 3146)_files/2_1.jpg"><img _src="dest/2dollars_files/10/3_1.jpg" id="zoom-0-tile-3-1" style="position: absolute; left: 761px; top: 253px; z-index: 0;" src="./jQuery Tilezoom Plugin - 2 Dollars (7356 x 3146)_files/3_1.jpg"></div>
+						<div class="zoom-hotspots grab" style="width: 920px; height: 394px;">
+							<a style="left:50%;top:55%;" href="http://labs.webcodingstudio.com/tilezoom/2dollars.html#">Thomas Jefferson</a>
+							<a style="left:63%;top:66%;" href="http://labs.webcodingstudio.com/tilezoom/2dollars.html#" rel="12">Series</a>
+						</div>
+					</div>
+				</div>
+				<div id="nav2">
+				</div>
+			</div>
+		</div>
+	</div></div>
+
+			
+</body></html>

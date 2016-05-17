@@ -1,0 +1,9 @@
+I"Y(function() {
+  var x;
+
+  x = $('graph1');
+
+  x = "<h1> Aew </h1>";
+
+}).call(this);
+:ET
