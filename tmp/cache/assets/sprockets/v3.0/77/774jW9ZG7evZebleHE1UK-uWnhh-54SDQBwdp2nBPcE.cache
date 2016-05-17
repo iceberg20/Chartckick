@@ -1,7 +1,0 @@
-I"d(function() {
-  this.test = function() {
-    return alert('Hello world');
-  };
-
-}).call(this);
-:ET

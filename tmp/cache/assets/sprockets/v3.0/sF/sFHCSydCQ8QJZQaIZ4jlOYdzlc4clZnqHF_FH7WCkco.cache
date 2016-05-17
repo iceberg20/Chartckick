@@ -1,5 +1,0 @@
-I"3(function() {
-  alert("aew");
-
-}).call(this);
-:ET

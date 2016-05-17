@@ -1,5 +1,0 @@
-I"J(function() {
-  $('#graph1').html("<h1> Aew </h1>");
-
-}).call(this);
-:ET

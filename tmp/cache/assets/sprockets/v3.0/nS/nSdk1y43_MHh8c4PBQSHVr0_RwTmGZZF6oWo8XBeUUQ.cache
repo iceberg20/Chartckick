@@ -1,5 +1,0 @@
-I"J(function() {
-  alert("Hello! I am an alert box!!");
-
-}).call(this);
-:ET
