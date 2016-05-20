@@ -12,4 +12,8 @@ class HomesController < ApplicationController
   def zoom
   	render 'dollar.html'
   end
+
+  def jsanimation
+   
+  end
 end
