@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'homes/show'
   get '/homes/charts'
   get '/homes/zoom'
+  get '/homes/jsanimation'
 
 
   resources :books
