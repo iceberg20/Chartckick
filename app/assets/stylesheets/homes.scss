@@ -3,11 +3,10 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 // CSS da view charts.html
 
-#combobox {
+	#combobox {
     text-align: center;
     float:left;
 }
-
 	#container {
     width: 400px;
     height: 400px;
@@ -20,16 +19,19 @@
     position: absolute;
     background: red;
 }
-
-#myProgress {
+	#myProgress {
     position: relative;
     width: 100%;
     height: 30px;
     background-color: grey;
 }
-#myBar {
+	#myBar {
     position: absolute;
     width: 1%;
     height: 100%;
     background-color: green;
 }
+	#contBar {
+		width: 400px;
+		height: 15px;
+	}
