@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/homes/zoom'
   get '/homes/jsanimation'
   get '/homes/tooltip'
+  get '/homes/video'
 
 
   resources :books

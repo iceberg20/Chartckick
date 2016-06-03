@@ -20,4 +20,9 @@ class HomesController < ApplicationController
   def tooltip
 
   end
+
+  def video
+  
+  end
+
 end
