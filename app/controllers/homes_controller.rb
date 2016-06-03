@@ -16,4 +16,8 @@ class HomesController < ApplicationController
   def jsanimation
    
   end
+
+  def tooltip
+
+  end
 end
