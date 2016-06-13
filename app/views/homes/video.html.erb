@@ -1,23 +1,15 @@
 <div style="text-align:center"> 
  <input id="btplay" type="image" onclick="play()" value="on" src="<%= image_path("playUp.png") %>" alt="Submit">
-  <button onclick="playPause()">Play/Pause</button> 
   <button onclick="makeBig()">Big</button>
   <button onclick="makeSmall()">Small</button>
   <button onclick="makeNormal()">Normal</button>
   <br><br>
-  <%= video_tag "ed.mp4", :size => "1024 x 677", :controls => true, :id => "video1", :poster => 'bg2.png' %>
+  <%= video_tag "ed.mp4", :size => "1024 x 677", :id => "video1", :poster => 'bg2.png' %>
 </div> 
 
 
 <script> 
 var myVideo = document.getElementById("video1"); 
-
-function playPause() { 
-    if (myVideo.paused) 
-        myVideo.play(); 
-    else 
-        myVideo.pause(); 
-} 
 
 function makeBig() { 
     myVideo.width = 700; 
@@ -36,11 +28,13 @@ function play() {
   var button = document.getElementById("btplay");  
   if (button.value == "on"){
     button.src = "<%= image_path("playDown.png") %>";
-    button.value ="off"
+    button.value ="off";
+    myVideo.play();
   }
   else {
     button.src = "<%= image_path("playUp.png") %>";
     button.value = "on";
+    myVideo.pause();
   }
   
 } 
