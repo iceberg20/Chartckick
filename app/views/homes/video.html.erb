@@ -1,4 +1,5 @@
 <div style="text-align:center"> 
+ <input id="btplay" type="image" onclick="play()" value="on" src="<%= image_path("playUp.png") %>" alt="Submit">
   <button onclick="playPause()">Play/Pause</button> 
   <button onclick="makeBig()">Big</button>
   <button onclick="makeSmall()">Small</button>
@@ -28,5 +29,19 @@ function makeSmall() {
 
 function makeNormal() { 
     myVideo.width = 420; 
+}
+
+function play() {
+  //alert('aew');
+  var button = document.getElementById("btplay");  
+  if (button.value == "on"){
+    button.src = "<%= image_path("playDown.png") %>";
+    button.value ="off"
+  }
+  else {
+    button.src = "<%= image_path("playUp.png") %>";
+    button.value = "on";
+  }
+  
 } 
 </script> 
