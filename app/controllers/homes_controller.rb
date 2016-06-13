@@ -13,16 +13,16 @@ class HomesController < ApplicationController
   	render 'dollar.html'
   end
 
-  def jsanimation
-   
+  def jsanimation   
   end
 
   def tooltip
-
   end
 
-  def video
-  
+  def video  
+  end
+
+  def maps
   end
 
 end
