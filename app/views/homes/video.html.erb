@@ -1,11 +1,21 @@
-<div style="text-align:center"> 
- <input id="btplay" type="image" onclick="play()" value="on" src="<%= image_path("playUp.png") %>" alt="Submit">
-  <button onclick="makeBig()">Big</button>
-  <button onclick="makeSmall()">Small</button>
-  <button onclick="makeNormal()">Normal</button>
-  <br><br>
+<div class="container">
+  <div class="panel-group">
+
+    <div class="panel panel-default">
+      <div class="panel-heading"><h3> Video Player </h3></div>
+      <div class="panel-body">
+        <div style="text-align:center">
   <%= video_tag "ed.mp4", :size => "1024 x 677", :id => "video1", :poster => 'bg2.png' %>
+   <br>
+  <input id="btplay" type="image" onclick="play()" value="on" src="<%= image_path("playUp.png") %>" alt="Submit">
 </div> 
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+</div>
 
 <script> 
 var myVideo = document.getElementById("video1"); 
